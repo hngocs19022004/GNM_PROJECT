@@ -1,3 +1,17 @@
+/* Call font Great Vibes*/
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('/fonts/GreatVibes-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+/* Call font DTPhudu*/
+@font-face {
+    font-family: 'DTPhudu';
+    src: url('/fonts/DTPhudu-Bold.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: system-ui;
 }
@@ -10,6 +24,7 @@ body {
     width: 100%;
     align-self: stretch;
     object-fit: fill;
+    
 }
 .absolute-image2 {
     position: absolute;
@@ -29,12 +44,13 @@ body {
 }
 .absolute-text {
     position: absolute;
-    top: 50px;
+    top: 90px;
     right: 670px;
     color: #608C3D;
     font-size: 72px;
     font-weight: bold;
     width: 779px;
+    font-family: 'DTPhudu'
 }
 .box {
     height: 1px;
@@ -703,10 +719,11 @@ body {
 .text6 {
     color: #FFFFFF;
     font-size: 72px;
-    font-weight: bold;
+    
     text-align: right;
     margin-right: 107px;
     width: 600px;
+    font-family: 'DTPhudu'
 }
 .text7 {
     color: #FFFFFF;
@@ -715,11 +732,13 @@ body {
     margin-bottom: 32px;
     margin-left: 166px;
     margin-right: 829px;
+    
 }
 .text8 {
     color: #FFFFFF;
     font-size: 36px;
     margin-right: 111px;
+    font-family: 'GreatVibes';
 }
 .text9 {
     color: #F1C644;
@@ -731,6 +750,8 @@ body {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 36px;
+    font-family: 'DTPhudu'
+
 }
 .text11 {
     color: #EAAE29;
@@ -738,6 +759,8 @@ body {
     font-weight: bold;
     margin-bottom: 37px;
     margin-left: 30px;
+    font-family: 'DTPhudu'
+
 }
 .text12 {
     color: #000000;
@@ -806,6 +829,8 @@ body {
     font-weight: bold;
     text-align: right;
     margin-bottom: 81px;
+    font-family: 'DTPhudu'
+
 }
 .text22 {
     color: #FFF697;
@@ -814,17 +839,20 @@ body {
     margin-bottom: 82px;
     margin-left: 20px;
     margin-right: 58px;
+    font-family: 'DTPhudu'
 }
 .text23 {
     color: #608C3D;
     font-size: 32px;
     margin-bottom: 22px;
+    font-family: 'GreatVibes';
 }
 .text24 {
     color: #608C3D;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 56px;
+    font-family: 'DTPhudu'
 }
 .text25 {
     color: #000000;
@@ -858,8 +886,8 @@ body {
 }
 .text30 {
     color: #000000;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight:bold;
     margin-bottom: 43px;
     width: 557px;
 }
@@ -872,12 +900,14 @@ body {
     color: #608C3D;
     font-size: 32px;
     margin-bottom: 21px;
+    font-family: 'GreatVibes';
 }
 .text33 {
     color: #608C3D;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 45px;
+    font-family: 'DTPhudu'
 }
 .text34 {
     color: #000000;
@@ -902,17 +932,20 @@ body {
     color: #608C3D;
     font-size: 32px;
     margin-bottom: 24px;
+    font-family: 'GreatVibes';
 }
 .text38 {
     color: #608C3D;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'DTPhudu'
 }
 .text39 {
     color: #FFFFFF;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 22px;
+    font-family: 'DTPhudu'
 }
 .text40 {
     color: #FFFFFF;
@@ -927,6 +960,7 @@ body {
     margin-bottom: 26px;
     margin-left: 34px;
     margin-right: 34px;
+    font-family: 'DTPhudu'
 }
 .text42 {
     color: #FFFFFF;
@@ -940,6 +974,7 @@ body {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 23px;
+    font-family: 'DTPhudu'
 }
 .text44 {
     color: #FFFFFF;
