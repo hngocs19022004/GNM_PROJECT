@@ -1,4 +1,18 @@
-		body {
+/* Call font Great Vibes*/
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('/fonts/GreatVibes-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+/* Call font DTPhudu*/
+@font-face {
+    font-family: 'DTPhudu';
+    src: url('/fonts/DTPhudu-Bold.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
 			font-family: system-ui;
 		}
 		.box {
@@ -421,6 +435,7 @@
 			align-items: center;
 			background: #F2F2F2;
 			padding: 37px 25px;
+			padding-right: 100px;
 			margin-bottom: 18px;
 		}
 		.row-view10 {
@@ -537,7 +552,7 @@
 		}
 		.text7 {
 			color: #6B3F22;
-			font-size: 16px;
+			font-size: 24px;
 			font-weight: bold;
 			margin-right: 14px;
 		}
